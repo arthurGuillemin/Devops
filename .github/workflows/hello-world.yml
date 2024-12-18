@@ -1,9 +1,9 @@
 name: hello-world
 on: push
 jobs:
-  my-job:
+  SayHello:
     runs-on: ubuntu-latest
     steps:
-      - name: SayHello
+      - name: print Hello
         run: echo "Hello World!"
         
